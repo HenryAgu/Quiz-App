@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://Github.com/HenryAgu/QuizApp)
+- Solution URL: (https://Github.com/HenryAgu/Quiz-App)
 - Live Site URL: (https://incredible-biscochitos-b6165c.netlify.app/)
 
 ## My process
