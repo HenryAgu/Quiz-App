@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/faveicon.ico" type="image/x-icon">
+    <title>javaScript project | Quiz App</title>
+</head>
+<body>
+
+    <div class="quiz-container" id="quiz">
+        <div id="quiz-header" class="quiz-header hide">
+            <h2 id="question" class="question-text">Question text</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text">Answer</label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text">Answer</label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_text">Answer</label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d_text">Answer</label>
+                </li>
+            </ul>
+        </div>
+        <div id="preview-text" class="preview">
+            <h2>Preview</h2>
+            <b>Welcome to Henry's Quiz  App.</b>
+            <p>A quiz to test your knowledge of Web Development which consists of HTML, CSS, 
+                JavaScript and their frame work. It consists total of 10 questions which takes 
+                your answers(options),calculates them and outputs your result after submission</p>
+        </div>
+        <h1 id="score" class="hide inner-score">score</h1>
+        <div class="controls">
+            <button id="submit" class="btn hide">Submit</button>
+            <button id="start" class="btn">Start</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
